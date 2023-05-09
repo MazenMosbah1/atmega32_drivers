@@ -63,11 +63,10 @@ int main(void)
 {
 	
 	sei(); 
-	//u32 x, y = 0;
 	DIO_Init();
 	LCD_Init();
 	UART_Init();
-	//u8 str[100] = {0};
+	
 	
 	while(1)
 	{
